@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact — SHOP.CO</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Contact</h1>
+      </div>
+    </header>
+    <main class="container">
+      <section class="signup-section">
+        <h2>Sign Up</h2>
+        <form id="signup-form" novalidate>
+          <div class="form-row">
+            <label for="fullname">Full Name</label>
+            <input id="fullname" name="fullname" required />
+            <small class="error" data-for="fullname"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+            <small class="error" data-for="email"></small>
+          </div>
+          <div class="form-row">
+            <label for="password">Password</label>
+            <div class="password-wrap">
+              <input id="password" name="password" type="password" required />
+              <button type="button" class="toggle-pass" data-target="password">Show</button>
+            </div>
+            <small class="error" data-for="password"></small>
+          </div>
+          <div class="form-row">
+            <label for="confirm">Confirm Password</label>
+            <div class="password-wrap">
+              <input id="confirm" name="confirm" type="password" required />
+              <button type="button" class="toggle-pass" data-target="confirm">Show</button>
+            </div>
+            <small class="error" data-for="confirm"></small>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn">Create account</button>
+            <div id="form-success" class="success" hidden>Account created successfully!</div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>Shop.co © 2000-2026. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+            <span class="error" id="firstNameError"></span>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+            <span class="error" id="lastNameError"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <span class="error" id="emailError"></span>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span class="error" id="passwordError"></span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./contact.js"></script>
+</body>
+</html>

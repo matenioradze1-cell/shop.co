@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header-warning">
+      <p>
+        Sign up and get 20% off to your first order.
+        <span class="underlined"> Sign Up Now</span>
+      </p>
+      <img class="x" src="./assets/x.svg" alt="" />
+    </div>
+    <header>
+      <h2>SHOP.CO</h2>
+      <div class="burger" onclick="toggleMenu()">☰</div>
+      <div class="mobile-menu">
+        <ul>
+          <li>shop</li>
+          <li>clothes</li>
+          <li>shoes</li>
+          <li>accesories</li>
+          <li>On Sale</li>
+          <li>New Arrivals</li>
+          <li>Brands</li>
+          <li>About</li>
+          <li>FAQs</li>
+        </ul>
+        <div class="contact-button"><a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+      <ul class="shop-list">
+        <li>
+          <select name="shop" id="shop" class="shop">
+            <option value="" disabled selected>Shop</option>
+            <option value="clothes">clothes</option>
+            <option value="shoes">shoes</option>
+            <option value="accesories">accesories</option>
+            <option value="more">more</option>
+          </select>
+        </li>
+        <li>On Sale</li>
+        <li>New Arrivals</li>
+        <li>Brands</li>
+      </ul>
+      <div class="search">
+        <img src="./assets/Frame.svg" alt="" />
+        <input
+          type="text"
+          id="search-box"
+          placeholder="Search for products..."
+        />
+      </div>
+      <img class="social" src="./assets/socual.svg" alt="" />
+    </header>
+    <section class="hero">
+      <div class="hero-div">
+        <h2>FIND CLOTHES THAT MATCHES YOUR STYLE</h2>
+        <p>
+          Browse through our diverse range of meticulously crafted garments,
+          designed to bring out your individuality and cater to your sense of
+          style.
+        </p>
+        <div class="shop-btn">Shop Now</div>
+        <ul>
+          <li><span class="numbers">200+</span>International Brands</li>
+          <li>
+            <span class="numbers bordered">2,000+</span>High-Quality Products
+          </li>
+          <li><span class="numbers bordered2">30,000+</span>Happy Customers</li>
+        </ul>
+      </div>
+    </section>
+    <div class="logos">
+      <img src="./assets/ver.svg" alt="" />
+      <img src="./assets/zar.svg" alt="" />
+      <img src="./assets/guc.svg" alt="" />
+      <img class="hide" src="./assets//pra.svg" alt="" />
+      <img class="hide" src="./assets/cal.svg" alt="" />
+      <div class="secondrow">
+        <img src="./assets//pra.svg" alt="" />
+        <img src="./assets/cal.svg" alt="" />
+      </div>
+    </div>
+    <div class="body-head">NEW ARRIVALS</div>
+    <div id="products-container" class="centered">
+      <div class="product">
+        <h3 class="product-title">Running Shoes</h3>
+        <p class="product-price">$49.99</p>
+      </div>
+      <div class="product">
+        <h3 class="product-title">Casual Shirt</h3>
+        <p class="product-price">$29.99</p>
+      </div>
+      <div class="product">
+        <h3 class="product-title">Leather Jacket</h3>
+        <p class="product-price">$99.99</p>
+      </div>
+    </div>
+    <div class="hidden-button mobile">View All</div>
+    <div class="big-line mobile"></div>
+
+    <div class="body-head mobile">top selling</div>
+    <div id="products-container1" class="centered"></div>
+    <div class="hidden-button mobile">View All</div>
+    <div class="big-line mobile"></div>
+
+    <div class="centered browse">
+      <p>BROWSE BY DRESS STYLE</p>
+      <div class="types">
+        <img src="./assets/cas.svg" alt="" />
+        <img class="show-this" src="./assets/for.svg" alt="" />
+        <img class="hide-this" src="./assets/for short.svg" alt="" />
+        <img class="show-this" src="./assets/par.svg" alt="" />
+        <img class="hide-this" src="./assets/par short.svg" alt="" />
+        <img src="./assets/gym.svg" alt="" />
+      </div>
+    </div>
+    <div class="oneline">
+      <div class="centered customer">OUR HAPPY CUSTOMERS</div>
+      <div class="centered arrows">
+        <img src="./assets/arrow.svg" alt="" />
+      </div>
+    </div>
+    <div class="centered rewievs">
+      <div class="rewiev">
+        <img class="stars" src="./assets/star.svg" alt="" />
+        <div class="user">
+          <p>Sarah M.</p>
+          <img src="./assets/check.svg" alt="" />
+        </div>
+        <p>
+          "I'm blown away by the quality and style of the clothes I received
+          from Shop.co. From casual wear to elegant dresses, every piece I've
+          bought has exceeded my expectations.”
+        </p>
+      </div>
+      <div class="rewiev">
+        <img class="stars" src="./assets/star.svg" alt="" />
+        <div class="user">
+          <p>Alex K.</p>
+          <img src="./assets/check.svg" alt="" />
+        </div>
+        <p>
+          "Finding clothes that align with my personal style used to be a
+          challenge until I discovered Shop.co. The range of options they offer
+          is truly remarkable, catering to a variety of tastes and occasions.”
+        </p>
+      </div>
+      <div class="rewiev">
+        <img class="stars" src="./assets/star.svg" alt="" />
+        <div class="user">
+          <p>James L.</p>
+          <img src="./assets/check.svg" alt="" />
+        </div>
+        <p>
+          "As someone who's always on the lookout for unique fashion pieces, I'm
+          thrilled to have stumbled upon Shop.co. The selection of clothes is
+          not only diverse but also on-point with the latest trends.”
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="centered update">
+        <p>STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>
+
+        <div class="update-buttons">
+          <div class="update-button">
+            <img src="./assets/letter.svg" alt="" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+          <div class="update-button">Subscribe to Newsletter</div>
+        </div>
+      </div>
+      <div class="centered footer-texts">
+        <div class="socials">
+          <p>SHOP.CO</p>
+          <p>
+            We have clothes that suits your style and which you’re proud to
+            wear. From women to men.
+          </p>
+          <img src="./assets/socials.svg" alt="" />
+        </div>
+        <div class="lists">
+          <ul>
+            <li>Company</li>
+            <li>About</li>
+            <li>Features</li>
+            <li>Works</li>
+            <li>Career</li>
+          </ul>
+          <ul>
+            <li>Help</li>
+            <li>Customer Support</li>
+            <li>Delivery Details</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+          </ul>
+          <ul>
+            <li>faq</li>
+            <li>Account</li>
+            <li>Manage Deliveries</li>
+            <li>Orders</li>
+            <li>Payments</li>
+          </ul>
+          <ul>
+            <li>Resources</li>
+            <li>Free eBooks</li>
+            <li>Development Tutorial</li>
+            <li>How to - Blog</li>
+            <li>Youtube Playlist</li>
+          </ul>
+        </div>
+      </div>
+      <div class="centered underline"></div>
+      <div class="centered last">
+        <p>Shop.co © 2000-2023, All Rights Reserved</p>
+        <img src="./assets/debit.svg" alt="" />
+      </div>
+    </footer>
+    <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+    <div id="cookie-notification" class="cookie-notification">
+      <p>
+        We use cookies to improve your experience.
+        <button id="accept-cookies">Accept</button>
+      </p>
+    </div>
+    <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+    <div id="cookie-notification" class="cookie-notification">
+      <p>
+        We use cookies to improve your experience.
+        <button id="accept-cookies">Accept</button>
+      </p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
