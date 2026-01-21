@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SHOP.CO — Landing (Exam Project)
 
 Live demo: https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
@@ -18,3 +19,6 @@ cd YOUR_REPO_NAME
 Notes:
 - Pages are in the project root: `index.html`, `css/style.css`, `js/main.js`.
 - The app fetches product data from https://fakestoreapi.com/products.
+=======
+# shop.co
+>>>>>>> 9419c9dd289d2ec3a5dc0e25807bd0d5807cdc0f
